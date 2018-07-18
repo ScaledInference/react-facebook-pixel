@@ -6,9 +6,9 @@ module.exports = {
   entry: ["./src/index.js"],
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "fb-pixel.js",
+    filename: "qp-pixel.js",
     libraryTarget: "umd",
-    library: "ReactPixel"
+    library: "ReactQuoraPixel"
   },
   module: {
     rules: [

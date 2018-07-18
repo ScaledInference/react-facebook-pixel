@@ -1,8 +1,8 @@
 {
-  "name": "react-facebook-pixel",
-  "version": "0.1.1",
-  "description": "Pixel Kit for React",
-  "main": "dist/fb-pixel.js",
+  "name": "react-quora-pixel",
+  "version": "0.0.1",
+  "description": "Quora Conversion Pixel for React",
+  "main": "dist/qp-pixel.js",
   "scripts": {
     "start": "export NODE_ENV=development&& webpack-dev-server --config webpack.config.dev.js",
     "bundle": "export NODE_ENV=production&& webpack -p --config webpack.config.dist.js",
@@ -11,24 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zsajjad/react-facebook-pixel.git"
+    "url": "git+https://github.com/ScaledInference/react-quora-pixel"
   },
   "keywords": [
     "react",
     "reactjs",
     "react-component",
     "pixel",
-    "facebook-pixel"
+    "quora-pixel"
   ],
   "author": {
-    "name": "Zain Sajjad",
-    "email": "zsajjad93@gmail.com"
+    "name": "Steve Mask",
+    "email": "steve@scaledinference.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zsajjad/react-facebook-pixel/issues"
+    "url": "https://github.com/ScaledInference/react-quora-pixel/issues"
   },
-  "homepage": "https://github.com/zsajjad/react-facebook-pixel",
+  "homepage": "https://github.com/ScaledInference/react-quora-pixel",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "6.7.7",
