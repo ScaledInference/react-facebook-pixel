@@ -1,41 +1,34 @@
 # react-facebook-pixel
 
-> React JS wrapper for [Facebook's Pixel](https://developers.facebook.com/docs/ads-for-websites/pixel-events/v2.9)
+> React JS wrapper for [Quora's Conversion Pixel](https://segment.com/docs/destinations/quora-conversion-pixel/)
 
 
 ## Install
 ```
-npm install react-facebook-pixel
+npm install react-quora-pixel
 
 ```
 or
 ```
-yarn add react-facebook-pixel
+yarn add react-quora-pixel
 
 ```
 
 ## How to use
 ```js
-import ReactPixel from 'react-facebook-pixel';
+import ReactQuoraPixel from 'react-quora-pixel';
 
 
-const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking#advanced_match
-const options = {
-	autoConfig: true, 	// set pixel's autoConfig
-    debug: false, 		// enable logs
-};
-ReactPixel.init('yourPixelIdGoesHere', advancedMatching, options);
+ReactQuoraPixel.init('yourPixelIdGoesHere', advancedMatching, options);
 
-ReactPixel.pageView(); 					// For tracking page view
-ReactPixel.track( event, data ) 		// For tracking default events, more info about events and data https://developers.facebook.com/docs/ads-for-websites/pixel-events/v2.9
-ReactPixel.trackCustom( event, data ) 	// For tracking custom events
+ReactQuoraPixel.track( event, data ) 		// For tracking default events, more info about events and data https://segment.com/docs/spec/track/
 ```
 **if you're bundling in CI**
 ```js
   ...
   componentDidMount() {
-    const ReactPixel =  require('react-facebook-pixel');
-    ReactPixel.init('yourPixelIdGoesHere');
+    const ReactQuoraPixel =  require('react-quora-pixel');
+    ReactQuoraPixel.init('yourPixelIdGoesHere');
   }
   ...
 ```
@@ -56,5 +49,3 @@ You can set IP and PORT in webpack.config.dev.js
 ```
 npm run bundle
 ```
-
-### Follow me on Twitter: [@zsajjad93](https://twitter.com/zsajjad93)
