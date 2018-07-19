@@ -71,7 +71,7 @@ export default {
     qp(...args); // eslint-disable-line no-undef
 
     if (debug) {
-      log(`called fbq('${args.slice(0, 2).join('\', \'')}')`);
+      log(`called qp('${args.slice(0, 2).join('\', \'')}')`);
 
       if (args[2]) {
         log('with data', args[2]);
