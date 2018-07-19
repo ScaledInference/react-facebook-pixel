@@ -32,7 +32,7 @@ const defaultOptions = {
 
 //
 export default {
-  init(pixelId, advancedMatching = {}, options = defaultOptions) {
+  init(pixelId, options = defaultOptions) {
     /* eslint-disable */
     !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
     /* eslint-enable */

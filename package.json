@@ -1,6 +1,6 @@
 {
   "name": "react-quora-pixel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quora Conversion Pixel for React",
   "main": "dist/qp-pixel.js",
   "scripts": {
