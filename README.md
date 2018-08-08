@@ -1,4 +1,4 @@
-# react-facebook-pixel
+# react-quora-pixel
 
 > React JS wrapper for [Quora's Conversion Pixel](https://segment.com/docs/destinations/quora-conversion-pixel/)
 
